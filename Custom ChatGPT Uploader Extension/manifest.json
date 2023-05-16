@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Custom ChatGPT Uploader Extension",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
